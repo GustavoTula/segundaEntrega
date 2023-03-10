@@ -167,10 +167,11 @@ class Paises extends Continentes{
     }
 }
 
-class Paquete {
-    constructor(){
-    }
-}
+/* ------------------------------FORMAR LA CLASE PARA PRODUCTOS UTILIZANDO ARRAYS--------------------------------- */
+
+/* ARRAYS */
+
+
 
 const america = new Continentes("America","a","b","c")
 const asia = new Continentes("Asia","a","b","c")
@@ -184,7 +185,7 @@ const argentina = new Paises(
     "La cultura de Argentina es el resultado de una interesante mezcla de culturas indígenas, europeas y afroamericanas. De allí que a menudo sea definido como un país multicultural y multiétnico.",
     "El tango, el fútbol, el asado y el mate son sus señas de identidad más características y entre las costumbres de Argentina encontramos un amplio folklore lleno de fiestas y tradiciones",
     "Asado - El asado es el plato insignia de argentina, proveniente de llanura pampeana donde más que una comida típica, hacer asados se convierte en todo un ritua /// Locro - El locro es una especie de sopa espesa y abundante hecha de maíz, porotos, papas y zapallo con algún tipo de carne y condimentada con comino, laurel, ajo, perejil y otras hierbas, aunque la receta puede cambiar según la tradición de cada provincia argentina.",
-    "Senderismo Reserva Natural de Villavicencio - Bodegas de Luján de Cuyo - Paseo Ecológico – Gomón Cataratas",
+    "Senderismo Reserva Natural de Villavicencio - Bodegas de Luján de Cuyo - Paseo Ecológico - Gomón Cataratas",
     )
 const japon = new Paises(
     "Japon",
@@ -227,6 +228,4 @@ alert("Bienvenidos al sistema de viaje CAMBA! \nPuede elegir su destino favorito
 const cliente = new Cliente()
 cliente.datosDelCliente()
 
-/* ------------------------------FORMAR LA CLASE PARA PRODUCTOS UTILIZANDO ARRAYS---------------------------------
- */
-
+const argentinapaq = new Paquete
