@@ -355,3 +355,5 @@ alert("Bienvenidos al sistema de viaje CAMBA! \nPuede elegir su destino favorito
 
 const cliente = new Cliente()
 cliente.datosDelCliente()
+
+/* AGREGAR LOS DATOS FALTANTES A LOS STRING Y A LOS CASE */
